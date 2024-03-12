@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 //Connect to DB
 //Azure db
 mongoose.connect(
-  "mongodb+srv://jlindsay82:R0xyf0xie!@jamesdb.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000",
+  "Insert connection string here",
   {}
 );
 
