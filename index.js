@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 //Connect to DB
 //Azure db
 mongoose.connect(
-  "Insert connection string here",
+  process.env.MONGO_URI,
   {}
 );
 
